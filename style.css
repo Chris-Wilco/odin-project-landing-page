@@ -1,0 +1,161 @@
+body {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #1f2937;
+    gap: 30px;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 16px 60px;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 12px;
+}
+
+.header > .text {
+    font-weight: 700;
+}
+
+.section {
+    padding: 16px 60px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.s1 {
+    flex-direction: row;
+    background: #1f2937;
+    gap: 30px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.s1 > img {
+    min-width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+.s2 {
+    display: flex;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.information-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.info-block {
+    display: flex;
+    gap: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px #1f2937;
+}
+
+.info > img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.info > .text {
+    max-width: 100px;
+}
+
+.s3 {
+    background: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.quote-sig {
+    margin-left: auto;
+}
+
+.s4 {
+    background: #ffffff;
+}
+
+.action-background {
+    display: flex;
+    justify-content: center;
+    background: #3882f6;
+    padding: 36px;
+    gap: 30px;
+    border-radius: 10px;
+
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #1f2937;
+    padding: 16px;
+}
+
+.text1 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text2 {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.button-style {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border: solid #f9faf8;
+    border-radius: 10px;
+    max-height: 40px;
+}
+
+.signup-block > .button-style {
+    border: none;
+}
