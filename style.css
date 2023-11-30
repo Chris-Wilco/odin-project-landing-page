@@ -20,7 +20,7 @@ ul {
     gap: 30px;
     color: #e5e7eb;
     font-size: 18px;
-    padding: 16px 60px;
+    padding: 16px 160px;
 }
 
 .header-links {
@@ -35,9 +35,10 @@ ul {
 }
 
 .section {
-    padding: 16px 60px 60px;
+    padding: 16px 160px 60px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .s1 {
@@ -57,7 +58,7 @@ ul {
 .s1 > img {
     min-width: 200px;
     height: 200px;
-    background-color: yellowgreen;
+    background-color: #3882f6;
 }
 
 .s2 {
@@ -115,6 +116,9 @@ ul {
 
 .s4 {
     background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .action-background {
@@ -124,15 +128,14 @@ ul {
     padding: 36px;
     gap: 30px;
     border-radius: 10px;
-
-    
+    max-width: 800px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     background: #1f2937;
-    padding: 16px;
+    padding: 16px 160px;
 }
 
 .text1 {
@@ -150,10 +153,11 @@ ul {
 .button-style {
     color: #f9faf8;
     background-color: #3882f6;
-    padding: 10px 30px;
-    border: solid #f9faf8;
+    padding: 10px 20px;
+    border: solid 1px #f9faf8;
     border-radius: 10px;
     max-height: 40px;
+    max-width: 100px;
 }
 
 .signup-block > .button-style {
