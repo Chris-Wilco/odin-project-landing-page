@@ -59,6 +59,7 @@ ul {
     min-width: 200px;
     height: 200px;
     background-color: #3882f6;
+    border-radius: 10px;
 }
 
 .s2 {
@@ -90,9 +91,8 @@ ul {
 .info > img {
     width: 100px;
     height: 100px;
-    border: 3px solid #3882f6;
-    padding: 5px;
-    border-radius: 10%;
+    border: 3px solid #eeeeee00;
+    border-radius: 10px;
 }
 
 .info > .text {
